@@ -42,7 +42,7 @@ export default function Navbar() {
           {/* Logo */}
           <button
             onClick={() => handleNavClick("#home")}
-            className="relative h-16 w-60 sm:h-20 sm:w-72 lg:h-24 lg:w-80"
+            className="relative h-8 w-30 sm:h-10 sm:w-36 lg:h-12 lg:w-40"
           >
             <Image
               src="/logo.png"
