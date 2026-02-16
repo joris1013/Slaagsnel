@@ -192,7 +192,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@slaagsnel.nl"
+                  href="mailto:F.Sadloe1@outlook.com"
                   className="group flex items-center gap-3 transition-colors"
                 >
                   <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/5 transition-colors group-hover:bg-secondary/20">
@@ -201,7 +201,7 @@ export default function Footer() {
                   <div>
                     <p className="text-xs text-white/40">E-mail</p>
                     <p className="text-sm font-medium text-white/70 transition-colors group-hover:text-secondary">
-                      info@slaagsnel.nl
+                      F.Sadloe1@outlook.com
                     </p>
                   </div>
                 </a>
