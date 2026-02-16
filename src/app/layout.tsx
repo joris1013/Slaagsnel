@@ -52,13 +52,6 @@ export const metadata: Metadata = {
     description:
       "Betaalbare en kwalitatieve rijlessen van 80 minuten. Alle examenroutes en vaste prijs.",
   },
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "32x32" },
-      { url: "/favicon.png", type: "image/png" },
-    ],
-    apple: "/favicon.png",
-  },
   robots: {
     index: true,
     follow: true,
