@@ -76,10 +76,10 @@ export default function InschrijfForm() {
   };
 
   return (
-    <section id="inschrijven" className="relative bg-background-alt py-20 sm:py-28">
+    <section className="relative bg-background-alt py-20 sm:py-28">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center">
-          <h2 className="text-3xl font-bold text-primary sm:text-4xl">
+          <h2 id="inschrijven" className="scroll-mt-[16px] text-3xl font-bold text-primary sm:text-4xl">
             Schrijf je{" "}
             <span className="text-secondary">in</span>
           </h2>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
@@ -9,14 +9,39 @@ import { NAV_LINKS } from "@/lib/constants";
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [initialAnimDone, setInitialAnimDone] = useState(false);
+  const lastScrollY = useRef(0);
+
+  const handleScroll = useCallback(() => {
+    if (isMobileOpen) return;
+
+    const currentScrollY = window.scrollY;
+
+    setIsScrolled(currentScrollY > 20);
+
+    const heroElement = document.getElementById("home");
+    const heroBottom = heroElement
+      ? heroElement.offsetTop + heroElement.offsetHeight
+      : 0;
+
+    if (currentScrollY > heroBottom) {
+      if (currentScrollY < lastScrollY.current) {
+        setIsVisible(true);
+      } else if (currentScrollY > lastScrollY.current) {
+        setIsVisible(false);
+      }
+    } else {
+      setIsVisible(true);
+    }
+
+    lastScrollY.current = currentScrollY;
+  }, [isMobileOpen]);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [handleScroll]);
 
   const handleNavClick = (href: string) => {
     setIsMobileOpen(false);
@@ -30,9 +55,16 @@ export default function Navbar() {
     <>
       <motion.nav
         initial={{ y: -100 }}
-        animate={{ y: 0 }}
-        transition={{ duration: 0.6, ease: [0.21, 0.47, 0.32, 0.98] }}
-        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
+        animate={{ y: isVisible ? 0 : "-100%" }}
+        transition={
+          initialAnimDone
+            ? { duration: 0.3, ease: "easeInOut" }
+            : { duration: 0.6, ease: [0.21, 0.47, 0.32, 0.98] }
+        }
+        onAnimationComplete={() => {
+          if (!initialAnimDone) setInitialAnimDone(true);
+        }}
+        className={`fixed top-0 left-0 right-0 z-40 transition-colors duration-300 ${
           isScrolled
             ? "bg-white/90 shadow-lg backdrop-blur-md"
             : "bg-transparent"

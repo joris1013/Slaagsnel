@@ -44,25 +44,26 @@ body {
 
 /* Animated gradient text */
 @keyframes gradient-shift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
+  0% { background-position: 100% 50%; }
+  60% { background-position: 0% 50%; }
   100% { background-position: 0% 50%; }
 }
 
 .animated-gradient-text {
   background: linear-gradient(
     90deg,
-    #255293 0%,
-    #E98122 25%,
-    #255293 50%,
-    #E98122 75%,
-    #255293 100%
+    #E98122 0%,
+    #E98122 35%,
+    #ffffff 47%,
+    #ffffff 53%,
+    #E98122 65%,
+    #E98122 100%
   );
-  background-size: 200% auto;
+  background-size: 300% 100%;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient-shift 4s ease infinite;
+  animation: gradient-shift 3.5s ease-in-out infinite;
 }
 
 /* Pulse animation for WhatsApp button */

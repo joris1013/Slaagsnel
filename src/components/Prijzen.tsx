@@ -89,10 +89,10 @@ export default function Prijzen() {
   };
 
   return (
-    <section id="prijzen" className="relative bg-white py-20 sm:py-28">
+    <section className="relative bg-white py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center">
-          <h2 className="text-3xl font-bold text-primary sm:text-4xl">
+          <h2 id="prijzen" className="scroll-mt-15 text-3xl font-bold text-primary sm:text-4xl">
             Onze{" "}
             <span className="text-secondary">Prijzen</span>
           </h2>
