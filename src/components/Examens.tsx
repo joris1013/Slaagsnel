@@ -121,6 +121,9 @@ export default function Examens() {
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => {
+                    window.dispatchEvent(
+                      new CustomEvent("selectPakket", { detail: "examen-actie" })
+                    );
                     const el = document.querySelector("#inschrijven");
                     if (el) el.scrollIntoView({ behavior: "smooth" });
                   }}

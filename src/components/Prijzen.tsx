@@ -7,6 +7,7 @@ import AnimatedSection from "./AnimatedSection";
 const plans = [
   {
     title: "Losse Les",
+    value: "losse-les",
     price: "€75",
     period: "per les",
     description: "Probeer vrijblijvend een les",
@@ -21,6 +22,7 @@ const plans = [
   },
   {
     title: "Totaalpakket",
+    value: "totaalpakket",
     price: "Vast bedrag",
     period: "tot je rijbewijs",
     description: "Alles-in-1 tot aan je rijbewijs",
@@ -37,6 +39,7 @@ const plans = [
   },
   {
     title: "Examen Actie",
+    value: "examen-actie",
     price: "€180",
     originalPrice: "€280",
     period: "eenmalig",
@@ -75,7 +78,10 @@ const cardVariants = {
 };
 
 export default function Prijzen() {
-  const handleScroll = () => {
+  const handleSelectPlan = (pakketValue: string) => {
+    window.dispatchEvent(
+      new CustomEvent("selectPakket", { detail: pakketValue })
+    );
     const element = document.querySelector("#inschrijven");
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -111,10 +117,10 @@ export default function Prijzen() {
                 y: -8,
                 transition: { duration: 0.3 },
               }}
-              className={`relative overflow-hidden rounded-2xl border-2 p-6 transition-shadow duration-300 sm:p-8 ${
+              className={`relative flex flex-col overflow-hidden rounded-2xl border-2 transition-shadow duration-300 ${
                 plan.highlighted
-                  ? "border-secondary bg-gradient-to-b from-secondary/5 to-white shadow-xl shadow-secondary/10"
-                  : "border-gray-100 bg-white shadow-sm hover:shadow-lg hover:shadow-primary/5"
+                  ? "border-secondary bg-gradient-to-b from-secondary/5 to-white shadow-xl shadow-secondary/10 p-7 sm:p-10 lg:scale-110 z-10"
+                  : "border-gray-100 bg-white shadow-sm hover:shadow-lg hover:shadow-primary/5 p-6 sm:p-8"
               }`}
             >
               {/* Highlighted badge */}
@@ -178,8 +184,8 @@ export default function Prijzen() {
               <motion.button
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
-                onClick={handleScroll}
-                className={`w-full rounded-full py-3 text-sm font-semibold transition-colors ${
+                onClick={() => handleSelectPlan(plan.value)}
+                className={`mt-auto w-full rounded-full py-3 text-sm font-semibold transition-colors ${
                   plan.highlighted
                     ? "bg-secondary text-white hover:bg-secondary-dark shadow-lg shadow-secondary/25"
                     : "bg-primary text-white hover:bg-primary-dark"
