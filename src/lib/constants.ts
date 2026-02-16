@@ -7,17 +7,6 @@ export const WHATSAPP_NUMBER = "31624657933";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const PHONE_NUMBER = "+31 6 24657933";
 
-// Google Maps - Vul hier later het adres / locatie in
-export const MAPS_QUERY = "Rijschool+Nederland"; // Vervang met exact adres
-export const MAPS_EMBED_URL = `https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=${MAPS_QUERY}`;
-// Als je geen API key hebt, gebruik dan deze gratis variant:
-export const MAPS_IFRAME_URL = `https://maps.google.com/maps?q=${MAPS_QUERY}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
-
-export const ADDRESS = {
-  street: "Straatnaam 1", // Vul later in
-  city: "Amsterdam", // Vul later in
-  zip: "1000 AA", // Vul later in
-};
 
 export const NAV_LINKS = [
   { href: "#home", label: "Home" },

@@ -5,12 +5,11 @@ import { motion } from "motion/react";
 import {
   Phone,
   Mail,
-  MapPin,
   ArrowUp,
   Clock,
   Car,
 } from "lucide-react";
-import { PHONE_NUMBER, ADDRESS, NAV_LINKS, WHATSAPP_URL } from "@/lib/constants";
+import { PHONE_NUMBER, NAV_LINKS, WHATSAPP_URL } from "@/lib/constants";
 import AnimatedSection from "./AnimatedSection";
 
 export default function Footer() {
@@ -204,21 +203,6 @@ export default function Footer() {
                     </p>
                   </div>
                 </a>
-              </li>
-              <li>
-                <div className="flex items-start gap-3">
-                  <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-white/5">
-                    <MapPin size={15} className="text-secondary" />
-                  </div>
-                  <div>
-                    <p className="text-xs text-white/40">Adres</p>
-                    <p className="text-sm text-white/70">
-                      {ADDRESS.street}
-                      <br />
-                      {ADDRESS.zip} {ADDRESS.city}
-                    </p>
-                  </div>
-                </div>
               </li>
             </ul>
           </div>

@@ -52,6 +52,13 @@ export const metadata: Metadata = {
     description:
       "Betaalbare en kwalitatieve rijlessen van 80 minuten. Alle examenroutes en vaste prijs.",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/favicon.png",
+  },
   robots: {
     index: true,
     follow: true,
@@ -69,10 +76,6 @@ const jsonLd = {
   telephone: "+31624657933",
   priceRange: "€75 - €280",
   image: "https://slaagsnel.nl/logo.png",
-  address: {
-    "@type": "PostalAddress",
-    addressCountry: "NL",
-  },
   sameAs: [],
   offers: [
     {
