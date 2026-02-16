@@ -35,7 +35,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="mailto:info@slaagsnel.nl"
+              href="mailto:F.Sadloe1@outlook.com"
               className="group flex items-start gap-4 rounded-2xl border border-gray-100 bg-background-alt p-6 shadow-sm transition-all hover:border-secondary/20 hover:shadow-md sm:p-8"
             >
               <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-primary/5 text-primary transition-colors group-hover:bg-secondary/10 group-hover:text-secondary">
@@ -44,7 +44,7 @@ export default function Contact() {
               <div>
                 <p className="text-sm font-semibold text-primary">E-mail</p>
                 <p className="mt-0.5 text-sm text-text-light transition-colors group-hover:text-secondary">
-                  info@slaagsnel.nl
+                  F.Sadloe1@outlook.com
                 </p>
               </div>
             </a>
