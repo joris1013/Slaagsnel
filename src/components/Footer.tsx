@@ -211,18 +211,37 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
-          <p className="text-xs text-white/30">
+        <div className="mt-12 flex flex-col items-center gap-4 border-t border-white/10 pt-8 sm:grid sm:grid-cols-3">
+          <p className="text-xs text-white/30 sm:text-left">
             &copy; {new Date().getFullYear()} Rijschool Slaagsnel. Alle rechten
             voorbehouden.
           </p>
+
+          <a
+            href="https://www.jmwebsites.nl/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 place-self-center rounded-full border border-white/10 bg-white/5 px-3 py-1.5 transition-all hover:border-white/20 hover:bg-white/10"
+          >
+            <Image
+              src="/tag/icon.svg"
+              alt="JM Websites"
+              width={18}
+              height={18}
+              className="rounded-[4px]"
+            />
+            <span className="text-xs text-white/40">
+              Gemaakt door{" "}
+              <span className="font-medium text-white/60">JM Websites</span>
+            </span>
+          </a>
 
           {/* Back to top */}
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={scrollToTop}
-            className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-white/50 transition-all hover:border-white/20 hover:bg-white/10 hover:text-white/80"
+            className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-white/50 transition-all hover:border-white/20 hover:bg-white/10 hover:text-white/80 sm:place-self-end sm:self-center"
           >
             <ArrowUp size={14} />
             Terug naar boven
