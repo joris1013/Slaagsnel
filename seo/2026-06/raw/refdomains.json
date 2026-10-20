@@ -1,0 +1,563 @@
+{
+  "target": "slaagsnel.nl",
+  "count": 15,
+  "items": [
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-05-26 22:33:06 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 50,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "pro": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "unknown": 1
+      },
+      "referring_links_semantic_locations": {
+        "": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-27 15:20:08 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 50,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "eu": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "unknown": 1
+      },
+      "referring_links_semantic_locations": {
+        "": 1
+      },
+      "referring_links_countries": {
+        "DE": 1
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "klantkompas.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-15 14:04:33 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 0,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 0,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 0,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 0,
+      "referring_links_tld": {
+        "com": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": null,
+      "referring_links_platform_types": {
+        "organization": 1
+      },
+      "referring_links_semantic_locations": {
+        "header": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-15 05:44:33 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 50,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "eu": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "unknown": 1
+      },
+      "referring_links_semantic_locations": {
+        "": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-06 01:07:42 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 50,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "wiki": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "unknown": 1
+      },
+      "referring_links_semantic_locations": {
+        "": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "quero.party",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-03 01:14:22 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 50,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 2,
+      "referring_pages_nofollow": 2,
+      "referring_links_tld": {
+        "party": 2
+      },
+      "referring_links_types": {
+        "anchor": 2
+      },
+      "referring_links_attributes": {
+        "nofollow": 2
+      },
+      "referring_links_platform_types": {
+        "unknown": 2
+      },
+      "referring_links_semantic_locations": {
+        "": 2
+      },
+      "referring_links_countries": {
+        "": 2
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "anchorurl.cloud",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-31 12:06:41 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 50,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "cloud": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "unknown": 1
+      },
+      "referring_links_semantic_locations": {
+        "": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-20 17:49:16 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 50,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 2,
+      "referring_pages_nofollow": 2,
+      "referring_links_tld": {
+        "eu": 2
+      },
+      "referring_links_types": {
+        "anchor": 2
+      },
+      "referring_links_attributes": {
+        "nofollow": 2
+      },
+      "referring_links_platform_types": {
+        "unknown": 2
+      },
+      "referring_links_semantic_locations": {
+        "": 2
+      },
+      "referring_links_countries": {
+        "": 2
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "buzzshrink.website",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-17 18:05:06 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 50,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "website": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "unknown": 1
+      },
+      "referring_links_semantic_locations": {
+        "": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "seobacklinks.agency",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-16 21:02:39 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 45,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "agency": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "blogs": 1,
+        "cms": 1
+      },
+      "referring_links_semantic_locations": {
+        "main": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "rankgrow.agency",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-11 05:22:28 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 45,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "agency": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "blogs": 1,
+        "cms": 1
+      },
+      "referring_links_semantic_locations": {
+        "main": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "bye.fyi",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-12-25 21:26:01 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 50,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 2,
+      "referring_pages_nofollow": 2,
+      "referring_links_tld": {
+        "fyi": 2
+      },
+      "referring_links_types": {
+        "anchor": 2
+      },
+      "referring_links_attributes": {
+        "nofollow": 2
+      },
+      "referring_links_platform_types": {
+        "unknown": 2
+      },
+      "referring_links_semantic_locations": {
+        "": 2
+      },
+      "referring_links_countries": {
+        "": 2
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "drjack.world",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-11-02 10:36:09 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 50,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 2,
+      "referring_pages_nofollow": 2,
+      "referring_links_tld": {
+        "world": 2
+      },
+      "referring_links_types": {
+        "anchor": 2
+      },
+      "referring_links_attributes": {
+        "nofollow": 2
+      },
+      "referring_links_platform_types": {
+        "unknown": 2
+      },
+      "referring_links_semantic_locations": {
+        "": 2
+      },
+      "referring_links_countries": {
+        "": 2
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "yoys.nl",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-03-08 13:12:46 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 0,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "nl": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "organization": 1
+      },
+      "referring_links_semantic_locations": {
+        "section": 1
+      },
+      "referring_links_countries": {
+        "NL": 1
+      }
+    },
+    {
+      "type": "backlinks_referring_domain",
+      "domain": "global-website.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-11-14 14:31:39 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 35,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "pages.dev": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1,
+        "noopener": 1,
+        "noreferrer": 1
+      },
+      "referring_links_platform_types": {
+        "unknown": 1
+      },
+      "referring_links_semantic_locations": {
+        "": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    }
+  ]
+}

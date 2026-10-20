@@ -1,0 +1,67 @@
+{
+  "target": "slaagsnel.nl",
+  "first_seen": "2023-11-14 14:31:39 +00:00",
+  "lost_date": null,
+  "rank": 0,
+  "backlinks": 20,
+  "backlinks_spam_score": 43,
+  "crawled_pages": 0,
+  "info": {
+    "server": null,
+    "cms": null,
+    "platform_type": null,
+    "ip_address": null,
+    "country": null,
+    "is_ip": false,
+    "target_spam_score": 0
+  },
+  "internal_links_count": 0,
+  "external_links_count": 0,
+  "broken_backlinks": 0,
+  "broken_pages": 0,
+  "referring_domains": 15,
+  "referring_domains_nofollow": 14,
+  "referring_main_domains": 15,
+  "referring_main_domains_nofollow": 14,
+  "referring_ips": 7,
+  "referring_subnets": 7,
+  "referring_pages": 19,
+  "referring_pages_nofollow": 18,
+  "referring_links_tld": {
+    "eu": 4,
+    "fyi": 2,
+    "world": 2,
+    "agency": 2,
+    "party": 2,
+    "cloud": 1,
+    "wiki": 1,
+    "com": 1,
+    "website": 1,
+    "pages.dev": 1
+  },
+  "referring_links_types": {
+    "anchor": 19
+  },
+  "referring_links_attributes": {
+    "nofollow": 18,
+    "noopener": 1,
+    "noreferrer": 1
+  },
+  "referring_links_platform_types": {
+    "unknown": 15,
+    "blogs": 2,
+    "cms": 2,
+    "organization": 2
+  },
+  "referring_links_semantic_locations": {
+    "": 15,
+    "main": 2,
+    "header": 1,
+    "section": 1
+  },
+  "referring_links_countries": {
+    "": 17,
+    "DE": 1,
+    "NL": 1
+  }
+}

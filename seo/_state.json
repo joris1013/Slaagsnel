@@ -1,0 +1,86 @@
+{
+  "site": "slaagsnel.nl",
+  "actions": [
+    {
+      "id": "geen-organische-vindbaarheid-in-google-n",
+      "text": "Geen organische vindbaarheid in Google NL",
+      "category": "klant",
+      "priority": "critical",
+      "first_seen": "2026-06",
+      "last_seen": "2026-06",
+      "status": "open"
+    },
+    {
+      "id": "site-is-1-pagina-geen-indexeerbare-onderp",
+      "text": "Site is 1 pagina, geen indexeerbare onderpagina's",
+      "category": "wij",
+      "priority": "high",
+      "first_seen": "2026-06",
+      "last_seen": "2026-06",
+      "status": "open"
+    },
+    {
+      "id": "backlinkprofiel-vrijwel-alleen-nofollow-",
+      "text": "Backlinkprofiel: vrijwel alleen nofollow + spammy domeinen",
+      "category": "klant",
+      "priority": "high",
+      "first_seen": "2026-06",
+      "last_seen": "2026-06",
+      "status": "open"
+    },
+    {
+      "id": "geen-robots-txt-aanwezig",
+      "text": "Geen robots.txt aanwezig",
+      "category": "wij",
+      "priority": "medium",
+      "first_seen": "2026-06",
+      "last_seen": "2026-06",
+      "status": "open"
+    },
+    {
+      "id": "geen-llms-txt-aanwezig",
+      "text": "Geen llms.txt aanwezig",
+      "category": "wij",
+      "priority": "medium",
+      "first_seen": "2026-06",
+      "last_seen": "2026-06",
+      "status": "open"
+    },
+    {
+      "id": "aeo-geo-grade-c",
+      "text": "AEO/GEO grade C",
+      "category": "wij",
+      "priority": "medium",
+      "first_seen": "2026-06",
+      "last_seen": "2026-06",
+      "status": "open"
+    },
+    {
+      "id": "weinig-leesbare-tekst-t-o-v-code-op-de-ho",
+      "text": "Weinig leesbare tekst t.o.v. code op de homepage",
+      "category": "klant",
+      "priority": "medium",
+      "first_seen": "2026-06",
+      "last_seen": "2026-06",
+      "status": "open"
+    },
+    {
+      "id": "geen-canonical-link-tag-in-de-head",
+      "text": "Geen canonical link tag in de head",
+      "category": "wij",
+      "priority": "low",
+      "first_seen": "2026-06",
+      "last_seen": "2026-06",
+      "status": "open"
+    },
+    {
+      "id": "render-blocking-resources-ontbrekende-im",
+      "text": "Render-blocking resources + ontbrekende image title",
+      "category": "wij",
+      "priority": "low",
+      "first_seen": "2026-06",
+      "last_seen": "2026-06",
+      "status": "open"
+    }
+  ]
+}

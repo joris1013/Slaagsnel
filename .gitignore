@@ -1,0 +1,10 @@
+# Klantrepo Slaagsnel. De site in sites/slaagsnel/ heeft een eigen .gitignore.
+.claude/settings.local.json
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Secrets, altijd en overal
+.env
+.env*.local

@@ -1,0 +1,202 @@
+{
+  "target": "slaagsnel.nl",
+  "count": 5,
+  "items": [
+    {
+      "type": "backlinks_anchor",
+      "anchor": "slaagsnel.nl",
+      "rank": 0,
+      "backlinks": 15,
+      "first_seen": "2023-11-14 14:31:39 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 49,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 11,
+      "referring_domains_nofollow": 11,
+      "referring_main_domains": 11,
+      "referring_main_domains_nofollow": 11,
+      "referring_ips": 3,
+      "referring_subnets": 3,
+      "referring_pages": 15,
+      "referring_pages_nofollow": 15,
+      "referring_links_tld": {
+        "eu": 4,
+        "fyi": 2,
+        "party": 2,
+        "world": 2,
+        "cloud": 1,
+        "pages.dev": 1,
+        "pro": 1,
+        "website": 1,
+        "wiki": 1
+      },
+      "referring_links_types": {
+        "anchor": 15
+      },
+      "referring_links_attributes": {
+        "nofollow": 15,
+        "noopener": 1,
+        "noreferrer": 1
+      },
+      "referring_links_platform_types": {
+        "unknown": 15
+      },
+      "referring_links_semantic_locations": {
+        "": 15
+      },
+      "referring_links_countries": {
+        "": 14,
+        "DE": 1
+      }
+    },
+    {
+      "type": "backlinks_anchor",
+      "anchor": "http://www.slaagsnel.nl/",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-03-08 13:12:46 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 0,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "nl": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "organization": 1
+      },
+      "referring_links_semantic_locations": {
+        "section": 1
+      },
+      "referring_links_countries": {
+        "NL": 1
+      }
+    },
+    {
+      "type": "backlinks_anchor",
+      "anchor": "Bezoek website",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-15 14:04:33 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 0,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 0,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 0,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 0,
+      "referring_links_tld": {
+        "com": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": null,
+      "referring_links_platform_types": {
+        "organization": 1
+      },
+      "referring_links_semantic_locations": {
+        "header": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    },
+    {
+      "type": "backlinks_anchor",
+      "anchor": "https://slaagsnel.nl – You need to Skyrocket your Ahrefs DR, Moz DA, and Majestic TF with real PBN, Guest posts, and premium backlinks—competitors trust us, why not you? Pay after work! Visit SeoBoost.agency now!",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-16 21:02:39 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 45,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "agency": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "blogs": 1,
+        "cms": 1
+      },
+      "referring_links_semantic_locations": {
+        "main": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    },
+    {
+      "type": "backlinks_anchor",
+      "anchor": "https://slaagsnel.nl – Increase your site’s backlinks and skyrocket your DA, DR, and TF with our expert SEO services—authentic dofollow backlinks, guest posts, and PBN links delivered by our team. Visit BuySeoLink.com to choose a plan, enjoy our pay-after-work model, and access 24/7 support!",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-11 05:22:28 +00:00",
+      "lost_date": null,
+      "backlinks_spam_score": 45,
+      "broken_backlinks": 0,
+      "broken_pages": 0,
+      "referring_domains": 1,
+      "referring_domains_nofollow": 1,
+      "referring_main_domains": 1,
+      "referring_main_domains_nofollow": 1,
+      "referring_ips": 1,
+      "referring_subnets": 1,
+      "referring_pages": 1,
+      "referring_pages_nofollow": 1,
+      "referring_links_tld": {
+        "agency": 1
+      },
+      "referring_links_types": {
+        "anchor": 1
+      },
+      "referring_links_attributes": {
+        "nofollow": 1
+      },
+      "referring_links_platform_types": {
+        "blogs": 1,
+        "cms": 1
+      },
+      "referring_links_semantic_locations": {
+        "main": 1
+      },
+      "referring_links_countries": {
+        "": 1
+      }
+    }
+  ]
+}
