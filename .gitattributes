@@ -1,0 +1,18 @@
+# Binaire bestanden nooit als tekst behandelen (geen regeleinde-omzetting).
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.ods binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.JPG binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.mp3 binary
+*.mp4 binary
+*.webm binary
+*.woff binary
+*.woff2 binary
