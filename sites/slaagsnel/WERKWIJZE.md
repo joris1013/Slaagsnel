@@ -1,12 +1,12 @@
 # Werkwijze: slaagsnel.nl
 
-Laatst bijgewerkt: 20 oktober 2026 (eerste ronde, Joris' sessie bij de ombouw naar de klantrepo; Mason vult aan). Dit bestand is voor wat tijd kost om uit te zoeken: omgeving, valkuilen, patronen die werken.
+Laatst bijgewerkt: 21 oktober 2026 (de klantrepo staat live; Joris' sessie). Eerste ronde: 20 oktober 2026; Mason vult aan. Dit bestand is voor wat tijd kost om uit te zoeken: omgeving, valkuilen, patronen die werken.
 
 ## Bouwen, testen, deployen
 
 - Werk vanuit `sites/slaagsnel/`: `npm install`, `npm run dev`, `npm run lint`, `npm run build`. Er zijn geen tests.
 - Push naar `main` is een productie-deploy van slaagsnel.nl. Werk op een branch; previews staan achter Vercel Authentication.
-- Na de ombouw bouwt Vercel vanuit Root Directory `sites/slaagsnel`. Een bestand in de root van de repo doet niets voor de build.
+- Vercel bouwt vanuit Root Directory `sites/slaagsnel`, productiebranch `main` (Vercel 21-10). Een bestand in de root van de repo doet niets voor de build.
 - Er zijn geen CI-workflows. Komt er een, dan in `.github/workflows/slaagsnel.yml` in de root.
 - Het Vercel-team heeft één lid, joris1013 (Vercel-inventaris 20-10). Een commit van een andere auteur kan op BLOCKED komen te staan.
 

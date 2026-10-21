@@ -1,6 +1,6 @@
 # Slaagsnel
 
-Laatst bijgewerkt: 20 oktober 2026 (eerste ronde, Joris' sessie bij de ombouw naar de klantrepo; Mason vult aan).
+Laatst bijgewerkt: 21 oktober 2026 (de klantrepo staat live; Joris' sessie). Eerste ronde: 20 oktober 2026; Mason vult aan.
 
 ## Wie
 
@@ -30,16 +30,17 @@ Laatst bijgewerkt: 20 oktober 2026 (eerste ronde, Joris' sessie bij de ombouw na
 
 | Project | Repo | Domeinen | Prod-branch | Laatste productie | Env-vars |
 |---|---|---|---|---|---|
-| `slaagsnel` | `joris1013/Slaagsnel` | slaagsnel.nl, www.slaagsnel.nl | `main` | 22 februari 2026 | 3 |
+| `slaagsnel` | `joris1013/Slaagsnel` | slaagsnel.nl, www.slaagsnel.nl | `main` | 21 oktober 2026 (`16b9e15`); inhoudelijk 22 februari 2026 | 3 |
 
-Bron: Vercel-inventaris 20-10. Na de ombouw bouwt het project vanuit Root Directory `sites/slaagsnel`.
+Bron: Vercel-inventaris 20-10; de laatste productie: Vercel 21-10. Het project bouwt vanuit Root Directory `sites/slaagsnel`, productiebranch `main` (Vercel 21-10).
 
 ## Log
 
 | Datum | Wat | Bron |
 |---|---|---|
+| 2026-10-21 | Klantrepo live: `klantrepo` naar `main` (`16b9e15`), Vercel bouwt vanuit `sites/slaagsnel` | git, Vercel 21-10 |
 | 2026-10-20 | Ombouw naar klantrepo: site naar `sites/slaagsnel/`, SEO-rapporten in `seo/` | `cb730a3` |
 | 2026-06-02 | Eerste SEO-run (deep); maandelijkse run daarna uitgezet | `seo/2026-06/report.md`, `seo/_history.md` |
-| 2026-02-22 | Tag "Gemaakt door JM Websites" in de footer; laatste productie-deploy | `abf08b8` |
+| 2026-02-22 | Tag "Gemaakt door JM Websites" in de footer; laatste inhoudelijke productie-deploy | `abf08b8` |
 | 2026-02-16 | Werkend inschrijfformulier met mail, favicon, prijskaarten | `f75a0e3`, `1d9d31a` |
 | 2026-02-12 | Start en eerste volledige versie | `cf16590`, `1a9730c` |

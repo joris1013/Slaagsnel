@@ -1,6 +1,6 @@
 # Open punten: slaagsnel.nl
 
-Laatst bijgewerkt: 20 oktober 2026 (eerste ronde, Joris' sessie bij de ombouw naar de klantrepo; Mason vult aan).
+Laatst bijgewerkt: 21 oktober 2026 (de klantrepo staat live; Joris' sessie). Eerste ronde: 20 oktober 2026; Mason vult aan.
 
 Dit is de enige open-lijst van Slaagsnel. De acties uit het SEO-rapport van juni 2026 staan hieronder; het rapport zelf blijft zoals het is. Opgeloste punten gaan naar sectie 4, met het antwoord.
 
